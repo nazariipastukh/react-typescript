@@ -1,7 +1,10 @@
+import {RickPage, SimpsonsPage} from "./pages";
+
 export const App = () => {
     return (
         <div>
-            App
+            <SimpsonsPage/>
+            <RickPage/>
         </div>
     );
 };
