@@ -1,7 +1,7 @@
 import {FC} from "react";
 
-import {IPost} from "../../interfaces";
-import styles from '../../styles/Card.module.css'
+import {IPost} from "../../../interfaces";
+import styles from '../../../styles/Card.module.css'
 
 export interface IProps {
     post: IPost,

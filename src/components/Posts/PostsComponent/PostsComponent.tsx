@@ -1,9 +1,9 @@
 import {useEffect, useState} from "react";
-import {IPost} from "../../interfaces";
-import {postsService} from "../../services";
+import {IPost} from "../../../interfaces";
+import {postsService} from "../../../services";
 import {PostCard} from "../PostCard";
 import {SelectedPost} from "../SelectedPost";
-import styles from '../../styles/Component.module.css'
+import styles from '../../../styles/Component.module.css'
 
 export const PostsComponent = () => {
     const [posts, setPosts] = useState<IPost[]>([])
