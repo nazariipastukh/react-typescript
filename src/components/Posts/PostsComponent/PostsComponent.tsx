@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react";
+
 import {IPost} from "../../../interfaces";
 import {postsService} from "../../../services";
 import {PostCard} from "../PostCard";

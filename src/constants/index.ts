@@ -1,1 +1,2 @@
-export * from './urls'
+export * from './jsonUrls'
+export * from './spacexUrls'

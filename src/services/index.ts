@@ -1,2 +1,2 @@
-export * from './apiService'
-export * from './postsService'
+export * from './jsonApi'
+export * from './spacexApi'
