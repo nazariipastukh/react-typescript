@@ -1,5 +1,5 @@
 import {PostsPage} from "./pages";
-import {FlightsPage} from "./pages/FlightsPage";
+import {FlightsPage} from "./pages";
 
 export const App = () => {
     return (
